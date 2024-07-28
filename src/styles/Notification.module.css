@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%; 
+  background: #110b23; 
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #a0a0a0;
+}
+
+.outerCircle {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #280b45, #1e0739);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 2px solid rgba(255, 255, 255, 0.216); 
+}
+
+.middleCircle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #3b1166, #1e0739);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(255, 255, 255, 0.393); 
+}
+
+.innerCircle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #4F1787, #1c0931);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(255, 255, 255, 0.574); 
+}
+
+.bellIcon {
+  font-size: 65px;
+  color: #ffffff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff;
+}
+
+.textContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.textContainer h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.textContainer p {
+  margin: 5px 0 20px 0;
+  color: #a0a0a0;
+}
+
+.button {
+  background: transparent;
+  border: 2px solid #a0a0a0;
+  color: #a0a0a0;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background: #cac4c8;
+  color: #0d0d0d;
+}
